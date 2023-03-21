@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;  border-color: #038ae4;
+}
+.sc1{
+    background-color: #94A6B2;
+    margin:0 auto;
+    border-bottom: 17px;
+    padding: 1px;
+    margin-right: 3%;
+    border:210px;
+   
+    }
+    .n{
+      color: #233954;
+    }
+    .sc1 p{
+      line-height: 1.4;
+    }
+img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 70%;
+  float: left;
+  margin: 0 29px 5px 0;
+}
+.sc2{
+  background-color: #353E4D;
+    color: #F1F4FE;
+    margin:0 auto;
+    border-bottom: 17px;
+    padding: 10px;
+    margin-right: 83%;
+    line-height: 1.8;
+}
+.img2{
+  font-family:#F1F4FE ;
+  width: 25px;
+  height: 25px;
+  float: left;
+}
+.bd{
+  margin-left: 18%;
+  position: absolute;
+  top: 250px;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css media quiri*/
+
+@media only screen and (max-width: 768px) {
+  /* Les styles Ã  appliquer lorsque la largeur de l'Ã©cran est infÃ©rieure ou Ã©gale Ã  768 pixels */
+
+  .sc1 {
+    margin-right: 0;
+  }
+
+  .sc2 {
+    margin-right: 70%;
+    border-bottom: 17px;
+
+  }
+
+  .bd {
+    margin-top:30px ;
+    margin-left:200px; 
+  }
+
+  .spr{
+    line-height: 1.2;
+  }
+
+  img {
+    float: left;
+    margin: 0 20px 5px 0;
+  }
+}
